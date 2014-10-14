@@ -41,7 +41,10 @@ public class Rectangulo {
     public double calcularArea(double base, double altura) {               
         return base*altura;
     /* double area= base*altura;
-       return area; */ 
+       return area; */
+    }
+    public double calcularArea(){               
+        return base*altura;            
     }
     public void calcularPerimetro(double base, double altura) {
         double perimetro;
@@ -49,5 +52,5 @@ public class Rectangulo {
         System.out.println("Perimetro = "+perimetro);
         //System.out.println("Perimetro = "+(base*2+altura*2));
     }
-    
+
 }

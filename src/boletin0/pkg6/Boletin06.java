@@ -20,9 +20,12 @@ public class Boletin06 {
         //visualizo la base de los 2 rectangulos
         System.out.println("Color: "+rect1.color +" Base: "+rect1.getBase());
         System.out.println("Color: "+rect2.color +" Base: "+rect2.getBase());
-        
-        
-               
+        System.out.println("Area: "+rect2.calcularArea(rect2.getBase(),rect2.getAltura()));
+        //Le damos valor 10 a la Base del rectangulo
+        rect2.setBase(10);
+        System.out.println("Area: "+rect2.calcularArea());
+        rect2.calcularPerimetro(rect2.getBase(),rect2.getAltura());
+                
     }
     
 }
